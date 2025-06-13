@@ -73,3 +73,7 @@ a {
   transform: scale(1.02);
   cursor: pointer;
 }
+
+html {
+  scroll-behavior: smooth;
+}
