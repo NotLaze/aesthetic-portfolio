@@ -52,3 +52,24 @@ section {
 a {
   color: #1abc9c;
 }
+
+.project-link {
+  text-decoration: none;
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: #34495e;
+  padding: 1.5rem;
+  border-radius: 15px;
+  color: #fff;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.project-card:hover {
+  background: #3e5870;
+  transform: scale(1.02);
+  cursor: pointer;
+}
